@@ -1,106 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amine's Blog</title>
-    <link rel="stylesheet" href="../style.css">
-    <style>
-        body {
-            background-color: #111;
-            color: white;
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+<section style="color: white; padding: 2rem;">
+  <h1>All Blog Posts</h1>
 
-        .blog-container {
-            max-width: 1100px;
-            margin: 80px auto;
-            padding: 0 20px;
-        }
+  <div style="display: flex; flex-direction: column; gap: 2rem;">
 
-        h1 {
-            text-align: center;
-            margin-bottom: 60px;
-            font-size: 2.5rem;
-        }
-
-        .post-card {
-            background-color: #1a1a1a;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-            margin-bottom: 40px;
-            transition: transform 0.3s ease;
-        }
-
-        .post-card:hover {
-            transform: scale(1.02);
-        }
-
-        .post-image {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .post-content {
-            padding: 25px;
-        }
-
-        .post-content h2 {
-            margin-top: 0;
-            font-size: 1.8rem;
-            color: #00ffff;
-        }
-
-        .post-content p {
-            font-size: 1rem;
-            line-height: 1.6;
-            color: #ccc;
-        }
-
-        .read-more {
-            display: inline-block;
-            margin-top: 15px;
-            color: #00ffff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .read-more:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="blog-container">
-        <h1>All Blog Posts</h1>
-
-        <!-- Post 1 -->
-        <div class="post-card">
-            <img src="post1.png" alt="Post 1" class="post-image">
-            <div class="post-content">
-                <h2>Balancing Weekends & Creativity</h2>
-                <p>
-                    Weekends don’t always mean switching off! Sometimes, they’re the perfect space to switch gears and work on what truly fuels your growth.
-                </p>
-                <a href="post1.html" class="read-more">Read More →</a>
-            </div>
-        </div>
-
-        <!-- Post 2 -->
-        <div class="post-card">
-            <img src="post2.png" alt="Post 2" class="post-image">
-            <div class="post-content">
-                <h2>Portfolio ≠ Growth</h2>
-                <p>
-                    When you're too focused on your portfolio, you forget to focus on yourself. It’s not just about perfect shots; it’s about process, progress, and showing up.
-                </p>
-                <a href="post2.html" class="read-more">Read More →</a>
-            </div>
-        </div>
+    <!-- Post 1 -->
+    <div style="display: flex; gap: 1rem; align-items: center;">
+      <img src="post1.png" alt="Post 1" style="width: 100px; height: auto; border-radius: 10px;">
+      <div>
+        <a href="post1.html" style="color: white; font-size: 1.2rem; font-weight: bold; text-decoration: none;">The Power of Personal Branding for Designers</a>
+        <p style="color: #ccc;">Balancing full-time work with freelance projects and building your personal brand, even on weekends.</p>
+      </div>
     </div>
-</body>
-</html>
+
+    <!-- Post 2 -->
+    <div style="display: flex; gap: 1rem; align-items: center;">
+      <img src="post2.png" alt="Post 2" style="width: 100px; height: auto; border-radius: 10px;">
+      <div>
+        <a href="post2.html" style="color: white; font-size: 1.2rem; font-weight: bold; text-decoration: none;">My Favorite Design Tools in 2025</a>
+        <p style="color: #ccc;">Explore the latest tools boosting design productivity in 2025. From prototyping to collaboration!</p>
+      </div>
+    </div>
+
+  </div>
+</section>
