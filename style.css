@@ -719,3 +719,24 @@ footer p a{
         height: 100px;
     }
 }
+
+
+.see-all-container {
+  margin-top: 30px;
+}
+
+.see-all-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #01ffff;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.see-all-button:hover {
+  background-color: #00d9d9;
+  color: #111;
+}
