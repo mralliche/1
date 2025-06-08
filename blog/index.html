@@ -1,25 +1,58 @@
-<section style="color: white; padding: 2rem;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Blog Posts</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      padding: 2rem;
+    }
+    .post-card {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      text-decoration: none;
+      color: white;
+      align-items: center;
+    }
+    .post-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .post-card h3 {
+      margin: 0;
+    }
+    .post-card p {
+      margin: 0;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
   <h1>All Blog Posts</h1>
 
-  <div style="display: flex; flex-direction: column; gap: 2rem;">
-
-    <!-- Post 1 -->
-    <div style="display: flex; gap: 1rem; align-items: center;">
-      <img src="post1.png" alt="Post 1" style="width: 100px; height: auto; border-radius: 10px;">
-      <div>
-        <a href="post1.html" style="color: white; font-size: 1.2rem; font-weight: bold; text-decoration: none;">The Power of Personal Branding for Designers</a>
-        <p style="color: #ccc;">Balancing full-time work with freelance projects and building your personal brand, even on weekends.</p>
-      </div>
+  <!-- Post 1 -->
+  <a href="post1.html" class="post-card">
+    <img src="post1.png" alt="Post 1">
+    <div>
+      <h3>Weekends don’t always mean switching off!</h3>
+      <p>Balancing full-time work with freelance projects and building your personal brand, even on weekends.</p>
     </div>
+  </a>
 
-    <!-- Post 2 -->
-    <div style="display: flex; gap: 1rem; align-items: center;">
-      <img src="post2.png" alt="Post 2" style="width: 100px; height: auto; border-radius: 10px;">
-      <div>
-        <a href="post2.html" style="color: white; font-size: 1.2rem; font-weight: bold; text-decoration: none;">My Favorite Design Tools in 2025</a>
-        <p style="color: #ccc;">Explore the latest tools boosting design productivity in 2025. From prototyping to collaboration!</p>
-      </div>
+  <!-- Post 2 -->
+  <a href="post2.html" class="post-card">
+    <img src="post2.png" alt="Post 2">
+    <div>
+      <h3>Sometimes, the Best Way to Respond Is With Results</h3>
+      <p>That’s what a General Manager told me in 2023 !</p>
     </div>
+  </a>
 
-  </div>
-</section>
+</body>
+</html>
